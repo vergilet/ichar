@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TabHost
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" android:id="@+id/tabHost">
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+            <TabWidget
+                    android:id="@android:id/tabs"
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp" android:clickable="false">
+            </TabWidget>
+            <FrameLayout
+                    android:id="@android:id/tabcontent"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                <LinearLayout
+                        android:id="@+id/tab1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+                    <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+                        <CheckBox
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:text="New CheckBox"
+                                android:id="@+id/checkBox" android:layout_gravity="left|center_vertical"
+                                android:layout_marginLeft="20dp" android:layout_marginTop="15dp"
+                                android:layout_marginRight="20dp"/>
+                        <CheckBox
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:text="New CheckBox"
+                                android:id="@+id/checkBox1" android:layout_gravity="left|center_vertical"
+                                android:layout_marginLeft="20dp" android:layout_marginTop="15dp"
+                                android:layout_marginRight="20dp"/>
+                        <CheckBox
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:text="New CheckBox"
+                                android:id="@+id/checkBox2" android:layout_gravity="left|center_vertical"
+                                android:layout_marginLeft="20dp" android:layout_marginTop="15dp"
+                                android:layout_marginRight="20dp"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                        android:id="@+id/tab2"
+                        android:layout_width="438dp"
+                        android:layout_height="252dp">
+                </LinearLayout>
+
+                <LinearLayout
+                        android:id="@+id/tab3"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+        android:id="@+id/widget32"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView
+            android:id="@+id/widget38"
+            android:layout_width="300px"
+            android:layout_height="279px"
+            android:layout_x="10dp"
+            android:layout_y="12dp">
+
+        <TextView
+                android:id="@+id/widget39"
+                android:layout_width="291px"
+                android:layout_height="277px"
+                android:text="Place for messages history " />
+    </ScrollView>
+    <Button
+            android:id="@+id/widget43"
+            android:layout_width="80px"
+            android:layout_height="67px"
+            android:text="Button"
+            android:layout_x="230dp"
+            android:layout_y="302dp" />
+    <EditText
+            android:id="@+id/widget44"
+            android:layout_width="212px"
+            android:layout_height="71px"
+            android:text="EditText"
+            android:textSize="18sp"
+            android:layout_x="10dp"
+            android:layout_y="302dp" />
+</AbsoluteLayout>
