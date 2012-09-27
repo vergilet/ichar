@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nyan Messenger</string>
+    <string name="easter_egg1"><![CDATA[I love you so much <3]]></string>
+    <string name="hellomess">Don\'t worry, we won\'t share your email address or pass with anyone</string>
+    <string name="settingmess">Want to change some of the scenery?</string>
+    <string name="hintpass">Password</string>
+    <string name="hintlogin">Email or login</string>
+    <string name="hintlogo">Nyan! nyan!</string>
+    <string name="hintpic">Nyan! nyan!</string>
+
+
+    <string-array name="vkmenunames">
+        <item>Мої Друзі</item>
+        <item>Мої Фотографії</item>
+        <item>Мої Повідомлення</item>
+        <item>Мої Новини</item>
+        <item>Мої Відповіді</item>
+        <item>Мої Групи</item>
+        <item>Мої Закладки</item>
+        <item>Мої Аудіозаписи</item>
+        <item>Мої Відеозаписи</item>
+        <item>Пошук</item>
+    </string-array>
+
+    <array name="vkmenuicons">
+        <item>@drawable/one</item>
+        <item>@drawable/two</item>
+        <item>@drawable/three</item>
+        <item>@drawable/four</item>
+        <item>@drawable/five</item>
+        <item>@drawable/six</item>
+        <item>@drawable/seven</item>
+        <item>@drawable/eight</item>
+        <item>@drawable/nine</item>
+        <item>@drawable/ten</item>
+    </array>
+
+
+
+</resources>
