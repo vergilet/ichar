@@ -1,7 +1,6 @@
 package com.googlecode.viewsource;
 
-import com.google.gson.*;
-
+import com.google.gson.Gson;
 import java.util.List;
 
 public class JsonParsingFriendsList {
