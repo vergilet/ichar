@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Nyan Messenger</string>
+    <string name="app_name">Nyan Me</string>
     <string name="easter_egg1"><![CDATA[I love you so much <3]]></string>
     <string name="hellomess">Don\'t worry, we won\'t share your email address or pass with anyone</string>
     <string name="settingmess">Want to change some of the scenery?</string>
